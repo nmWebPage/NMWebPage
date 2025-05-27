@@ -5,8 +5,8 @@ const DifferentialsSection = () => {
   const differentials = [
     {
       icon: <Network className="w-6 h-6" />,
-      title: "Arquitetura padrão multitenant",
-      subtitle: "Até 200+ ERPs integrados",
+      title: "Arquitetura padrão para BI multitenant",
+      subtitle: "Mais de 40 ERPs integrados",
       description: "Escalabilidade garantida"
     },
     {
@@ -17,12 +17,13 @@ const DifferentialsSection = () => {
     {
       icon: <BarChart3 className="w-6 h-6" />,
       title: "Analytics avançado",
-      subtitle: "relatórios em tempo real"
+      subtitle: "Unifique todos seus dados estratégicos",
+      description: "Dashboards e relatórios personalizados"
     },
     {
       icon: <MessageSquare className="w-6 h-6" />,
       title: "Integração com IA generativa",
-      subtitle: "(via WhatsApp)"
+      subtitle: "Consulte seus dados via WhatsApp"
     }
   ];
 

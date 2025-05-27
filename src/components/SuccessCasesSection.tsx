@@ -6,8 +6,8 @@ const SuccessCasesSection = () => {
     {
       icon: <FileText className="w-8 h-8" />,
       title: "APP ESCALÁVEL",
-      subtitle: "300 usuários em 300+ unidades",
-      description: "20 ERPs integrados em arquitetura unificada"
+      subtitle: "300+ bancos de dados integrados",
+      description: "40+ ERPs integrados em arquitetura unificada"
     },
     {
       icon: <Database className="w-8 h-8" />,
@@ -17,7 +17,7 @@ const SuccessCasesSection = () => {
     {
       icon: <MessageSquare className="w-8 h-8" />,
       title: "IA VIA WHATSAPP",
-      subtitle: "Decisões automáticas através de chatbot inteligente"
+      subtitle: "Decisões na palma da mão através de chatbot inteligente"
     }
   ];
 

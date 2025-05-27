@@ -2,20 +2,24 @@
 const AboutSection = () => {
   const technologies = [{
     name: "QlikView",
-    logo: "QV"
+    logo: "Qlikview"
   }, {
     name: "Qlik",
-    logo: "QLK"
+    logo: "Qlik Sense"
   }, {
     name: "SAS",
-    logo: "SAS"
+    logo: "Qlik Sense SaaS"
   }, {
-    name: "Redinfra",
-    logo: "RED"
+    name: "Inteligência Artificial",
+    logo: "IA"
   }, {
     name: "AWS",
     logo: "AWS"
-  }];
+  },
+  {
+      name: "Integração de Dados",
+      logo: "Data Integration"
+    }];
 
   return (
     <section className="bg-slate-800 p-8 lg:p-12 h-full flex flex-col justify-center border-r border-slate-600 border-b border-slate-600">
