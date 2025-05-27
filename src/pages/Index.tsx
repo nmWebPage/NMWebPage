@@ -11,15 +11,27 @@ const Index = () => {
     <div className="min-h-screen bg-slate-900">
       <HeroSection />
       
-      {/* Grid layout dividindo em quadros organizados */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen">
-        <AboutSection />
-        <DifferentialsSection />
-      </div>
-      
-      <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen">
-        <SuccessCasesSection />
-        <ServicesSection />
+      {/* Divisão da tela ao meio com quadros organizados */}
+      <div className="min-h-screen flex">
+        {/* Lado Esquerdo */}
+        <div className="w-1/2 flex flex-col">
+          <div className="flex-1">
+            <AboutSection />
+          </div>
+          <div className="flex-1">
+            <SuccessCasesSection />
+          </div>
+        </div>
+        
+        {/* Lado Direito */}
+        <div className="w-1/2 flex flex-col">
+          <div className="flex-1">
+            <DifferentialsSection />
+          </div>
+          <div className="flex-1">
+            <ServicesSection />
+          </div>
+        </div>
       </div>
       
       <ContactSection />
