@@ -6,18 +6,18 @@ const SuccessCasesSection = () => {
     {
       icon: <FileText className="w-8 h-8" />,
       title: "APP ESCALÁVEL",
-      subtitle: "300 agustos em 300 + unidades",
-      description: "20 ERPs - como ades naquavictor"
+      subtitle: "300 usuários em 300+ unidades",
+      description: "20 ERPs integrados em arquitetura unificada"
     },
     {
       icon: <Database className="w-8 h-8" />,
       title: "DATA LAKE CENTRALIZADO",
-      subtitle: "Ano lemri de osterolles em 100 colon uma gensorelonas"
+      subtitle: "Consolidação de dados de múltiplas fontes em ambiente único"
     },
     {
       icon: <MessageSquare className="w-8 h-8" />,
       title: "IA VIA WHATSAPP",
-      subtitle: "Decidcs co alassos de galmis designs éla raguidos"
+      subtitle: "Decisões automáticas através de chatbot inteligente"
     }
   ];
 

@@ -20,11 +20,11 @@ const ContactSection = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <div className="w-3 h-3 bg-blue-400 rounded-full"></div>
-                <span className="text-gray-300 text-sm">newuformatng./@es</span>
+                <span className="text-gray-300 text-sm">newtonmarques@empresa.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-3 h-3 bg-cyan-400 rounded-full"></div>
-                <span className="text-gray-300 text-sm">iliaribudus.com</span>
+                <span className="text-gray-300 text-sm">newtonmarques.com</span>
               </div>
             </div>
           </div>

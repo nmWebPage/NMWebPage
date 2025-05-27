@@ -4,8 +4,8 @@ import { CheckCircle } from "lucide-react";
 const ServicesSection = () => {
   const services = [
     "Consultoria técnica e projetos porta-a-porta",
-    "Apoio estratégico e mentoring de equips interna", 
-    "Treinamentos e estruturação de govêrnança BI",
+    "Apoio estratégico e mentoring de equipes internas", 
+    "Treinamentos e estruturação de governança BI",
     "Implementação de IA com dados reais"
   ];
 

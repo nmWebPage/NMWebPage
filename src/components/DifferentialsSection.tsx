@@ -5,19 +5,19 @@ const DifferentialsSection = () => {
   const differentials = [
     {
       icon: <Network className="w-6 h-6" />,
-      title: "Arquitetura padrão multitelente",
-      subtitle: "Até 200 + 19 ERPs",
-      description: "300 seguindo"
+      title: "Arquitetura padrão multitenant",
+      subtitle: "Até 200+ ERPs integrados",
+      description: "Escalabilidade garantida"
     },
     {
       icon: <Database className="w-6 h-6" />,
       title: "Data Lake estruturado",
-      subtitle: "e prompts para IA"
+      subtitle: "com prompts para IA"
     },
     {
-      icon: <Database className="w-6 h-6" />,
-      title: "Data Lake estruturado",
-      subtitle: "e prompts para IA"
+      icon: <BarChart3 className="w-6 h-6" />,
+      title: "Analytics avançado",
+      subtitle: "relatórios em tempo real"
     },
     {
       icon: <MessageSquare className="w-6 h-6" />,
