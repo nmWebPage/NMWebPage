@@ -1,9 +1,6 @@
-
 import { Database, TrendingUp, Zap } from "lucide-react";
-
 const HeroSection = () => {
-  return (
-    <section className="relative bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-20 right-20 w-32 h-32 bg-blue-400 rounded-full blur-3xl"></div>
@@ -33,9 +30,7 @@ const HeroSection = () => {
           EM BI, DADOS E IA
         </h2>
         
-        <p className="text-blue-100 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
-          Transformamos dados brutos em decisões automáticas – com escala e inteligência.
-        </p>
+        <p className="text-blue-100 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">Transformamos dados brutos em decisões – com escala e inteligência.</p>
         
         <div className="flex justify-center space-x-8 mt-12 opacity-60">
           <div className="flex flex-col items-center">
@@ -52,8 +47,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
