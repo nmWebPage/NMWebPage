@@ -7,18 +7,18 @@ const AboutSection = () => {
     name: "Qlik",
     logo: "Qlik Sense"
   }, {
-    name: "SAS",
+    name: "Qlik Sense SaaS",
     logo: "Qlik Sense SaaS"
-  }, {
-    name: "Inteligência Artificial",
-    logo: "IA"
-  }, {
-    name: "AWS",
-    logo: "AWS"
-  },
+  }, 
   {
-      name: "Integração de Dados",
-      logo: "Data Integration"
+    name: "Arquitetura de soluções",
+    logo: "Arquitetura de Soluções"
+  },{
+    name: "Inteligência Artificial",
+    logo: "Inteligência Artificial"
+  }, {      
+    name: "Integração de Dados",
+    logo: "Integração de Dados"
     }];
 
   return (
