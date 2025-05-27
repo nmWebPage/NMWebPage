@@ -10,13 +10,19 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-900">
       <HeroSection />
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
+      
+      {/* Grid layout dividindo em quadros organizados */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen">
         <AboutSection />
         <DifferentialsSection />
+      </div>
+      
+      <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen">
         <SuccessCasesSection />
         <ServicesSection />
-        <ContactSection />
       </div>
+      
+      <ContactSection />
     </div>
   );
 };

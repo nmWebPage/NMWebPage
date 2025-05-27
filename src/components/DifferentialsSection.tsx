@@ -27,7 +27,7 @@ const DifferentialsSection = () => {
   ];
 
   return (
-    <section className="bg-slate-900 p-8 lg:p-12 min-h-[50vh] flex flex-col justify-center">
+    <section className="bg-slate-900 p-8 lg:p-12 h-full flex flex-col justify-center border-b border-slate-600">
       <h2 className="text-white text-2xl md:text-3xl font-bold mb-8">
         NOSSOS<br />DIFERENCIAIS
       </h2>

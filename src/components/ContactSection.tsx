@@ -3,7 +3,7 @@ import { QrCode } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <section className="bg-slate-800 p-8 lg:p-12 min-h-[50vh] flex flex-col justify-center space-y-8 lg:col-span-2 border-t border-slate-700">
+    <section className="bg-slate-800 p-8 lg:p-12 min-h-[60vh] flex flex-col justify-center border-t border-slate-600">
       <div className="max-w-4xl mx-auto w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div>

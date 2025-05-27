@@ -22,7 +22,7 @@ const SuccessCasesSection = () => {
   ];
 
   return (
-    <section className="bg-slate-800 p-8 lg:p-12 min-h-[50vh] flex flex-col justify-center border-r border-slate-700">
+    <section className="bg-slate-800 p-8 lg:p-12 h-full flex flex-col justify-center border-r border-slate-600">
       <h2 className="text-white text-2xl md:text-3xl font-bold mb-8">
         CASES DE SUCESSO
       </h2>
